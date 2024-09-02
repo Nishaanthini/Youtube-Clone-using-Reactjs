@@ -122,7 +122,7 @@ function Youtube(){
         <img src={image5} alt="" className='img'/>
             <div className="tabel-content">
               <div className="table-left">
-              <p><span className="span1">Drafting a Winning SIH PPT 🔥 |<br/> Smart India Hackathon 2024</span> <br/>4 days ago</p>
+              <p><span className="span1">Drafting a Winning SIH PPT |<br/> Smart India Hackathon 2024</span> <br/>4 days ago</p>
               </div>
               <div className="table-right">
                 <HiOutlineDotsVertical/>
@@ -175,7 +175,7 @@ function Youtube(){
         <img src={image9} alt="" className='img'/>
             <div className="tabel-content">
               <div className="table-left">
-              <p><span className="span1">Fastest way to learn Data Structures and Algorithms</span> <br/>4 weeks ago</p>
+              <p><span className="span1">Fastest way to learn Data<br/> Structures and Algorithms</span> <br/>4 weeks ago</p>
               </div>
               <div className="table-right">
                 <HiOutlineDotsVertical/>

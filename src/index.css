@@ -6,8 +6,64 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.youtube{
+  display: flex;
+  height: 100vh;
+}
+.icon,.icon1{
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+.icon1{
+  padding-bottom: 50px;
+}
+.left-p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content{
+  padding: 30px;
+}
+.nav1,.nav{
+  display: flex;
+}
+.nav{
+  box-shadow: 0 1px 3px -2px black;
+}
+input{
+  width: 400px;
+  border-radius: 10px;
+  height: 38px;
+  margin-left: 150px;
+  margin-top: 35px;
+}
+.p-nav{
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.icon-nav{
+  color: red;
+  font-size: 45px;
+  padding-top: 21px;
+}
+.img{
+  width: 300px;
+  height: 180px;
+  gap: 50px;
+}
+.tabel-content{
+  display: flex;
+}
+.table-right{
+  font-size: 29px;
+  left: 0px;
+}
+.span1{
+  font-weight: bold;
+  font-size: 20px;
+}
+.row{
+  display: flex;
 }

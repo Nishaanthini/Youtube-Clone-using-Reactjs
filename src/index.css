@@ -10,6 +10,9 @@ body {
   display: flex;
   height: 100vh;
 }
+.left{
+  width: 100px;
+}
 .icon,.icon1{
   font-size: 40px;
   text-align: center;
@@ -17,6 +20,10 @@ body {
 }
 .icon1{
   padding-bottom: 50px;
+  padding-top: 33px;
+}
+.right{
+  flex-grow: 1;
 }
 .left-p{
   text-align: center;
@@ -28,16 +35,56 @@ body {
 .nav1,.nav{
   display: flex;
 }
+.nav2{
+  display: flex;
+}
+.mic{
+  margin-top: 24px;
+  margin-left: 20px;
+  font-size: 35px;
+  height: 65px;
+  width: 65px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: rgb(240, 240, 240);
+}
 .nav{
   box-shadow: 0 1px 3px -2px black;
 }
-input{
+.form {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(205, 204, 204); 
+  border-radius: 25px;
+  padding: 5px;
+  width: 600px;
+  margin-top: 25px;
+  margin-left: 200px;
+  
+}
+.input {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  flex-grow: 1;
+  font-size: 20px;
+}
+.search{
+  background-color: rgb(240, 240, 240);
+  width: 70px;
+  height: 53px;
+  font-size: 30px;
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+}
+/* input{
   width: 400px;
   border-radius: 10px;
   height: 38px;
   margin-left: 150px;
   margin-top: 35px;
-}
+} */
 .p-nav{
   font-size: 30px;
   font-weight: bold;
@@ -47,18 +94,19 @@ input{
   color: red;
   font-size: 45px;
   padding-top: 21px;
+  padding-left: 20px;
 }
 .img{
-  width: 300px;
-  height: 180px;
-  gap: 50px;
+  width: 380px;
+  height: 200px;
 }
 .tabel-content{
   display: flex;
 }
 .table-right{
-  font-size: 29px;
-  left: 0px;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 60px;
 }
 .span1{
   font-weight: bold;
@@ -66,4 +114,7 @@ input{
 }
 .row{
   display: flex;
+}
+.gap{
+  margin-left: 50px;
 }
